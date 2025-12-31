@@ -34,7 +34,7 @@
 }
 
 .input:focus,
-input:hover {
+.input:hover {
     outline: none;
     border-color: rgba(78, 142, 231, 0.4);
     box-shadow: 0 0 0 4px rgba(108, 156, 226, 0.1);
