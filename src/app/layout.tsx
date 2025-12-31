@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// import "./index.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Navbar from "./_Components/Navbar/Navbar";
-import Loader from "./_Components/Loader/Loader";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const geistSans = Geist({
@@ -31,7 +29,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} `}>
         <Navbar />
-        {/* <Loader /> */}
         <div className="relative bg-amber-100 text-blue-900 w-screen h-[100vh]">
           {children}
         </div>
